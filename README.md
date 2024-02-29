@@ -37,8 +37,11 @@ If the bet is successful, the API responds with the player's updated account bal
 ### Implementation
 
 Added validation for when the bet is lower than 0 or higher than they player's balance.
+
 Added validation for when the guessed number is not within the interval 0-9.
+
 In the request you need to add the id of the player. 
+
 The database has been seeded with 2 players but you can add more directly or by modifying the DbInitializer class.
 
 To run the program:
